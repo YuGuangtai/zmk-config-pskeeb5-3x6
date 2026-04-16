@@ -1,0 +1,11 @@
+manifest:
+  remotes:
+    - name: klesh
+      url-base: https://github.com/klesh
+  projects:
+    - name: zmk
+      remote: klesh
+      revision: pskeeb5_3x6
+      import: app/west.yml
+  self:
+    path: config
